@@ -1,0 +1,24 @@
+{
+    "name":"News of the month",
+    "short_name":"News Month",
+    "description":"This is a project of Javier Merida, is a web site and PWA",
+    "background_color":"#222222",
+    "theme_color":"#222222",
+    "orientation":"portrait",
+    "display":"standalone",
+    "start_url":"/?utm_source=web_app_manifest",
+    "scope":"./",
+    "lang":"en-US",
+    "icons":[
+        {
+            "src":"./img/N_2.png",
+            "sizes":"900x900",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/N.png",
+            "sizes":"48x48",
+            "type":"image/png"
+        }
+    ]
+}

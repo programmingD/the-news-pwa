@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2rem;
+    background-color: #222222;
+}
+
+.card {
+    margin-right: 8px;
+    margin-bottom: 2rem;
+}
+
+.card .card-body .author, .published{
+    font-size: 12px;
+}
+
+#credits{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #222222;
+    color: #f1f1f1;
+    border-top: 2px solid #f1f1f1;
+}
+
+#credits a {
+    text-decoration: none;
+}
+
+.twitter, .github{
+    color: #f1f1f1;
+    margin-left: 2.5rem;
+}
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1000px) {
+    .navbar .container-fluid .sub {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .navbar .container-fluid .sub {
+        font-size: 20px;
+    }
+}
