@@ -32,6 +32,6 @@ function getNewsAPI(API) {
 
 function runApp() {
     getNewsAPI(API);
-    getNewsAPI(API_II);
-    getNewsAPI(API_III);
+    /*getNewsAPI(API_II);
+    getNewsAPI(API_III);*/
 }
