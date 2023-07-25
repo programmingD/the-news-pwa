@@ -7,11 +7,12 @@ urlsToCache = [
     './',
     './style/style.css',
     './src/app.js',
-    './img/N.png'
+    './img/N.png',
+    './img/N_2.png'
 ]
 
 /* Durante la fase fase de instalacion, generalmente se almacena en cache los archivos estaticos */
-self.addEventListener('install', e => {
+self.addEventListener('install', (e) => {
     e.waitUntil(
         caches.open(CACHE_NAME)
         .then(cache => {
@@ -35,7 +36,7 @@ self.addEventListener('activate', e => {
                 }
             })
         })
-        //Le indicamos al service worker activr la cache
+        //Le indicamos al service worker activar la cache
         .then(()=> self.clients.claim())
     )
 });
