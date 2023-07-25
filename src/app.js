@@ -5,8 +5,11 @@ const HTMLNode = document.getElementById('news');
 
 function getNewsAPI(API) {
     fetch(API)
-        .then((res) => res.json())
-        .then((data) => {
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+        });
+        /*.then((data) => {
             //console.log(data);
             data.articles.forEach(article => {
                 if(article.urlToImage != null && article.title != null && article.author != null && article.description != null && article.publishedAt != null){
@@ -25,7 +28,7 @@ function getNewsAPI(API) {
                     HTMLNode.innerHTML += apples;
                 } 
             });
-        })
+        })*/
 }
 
 function runApp() {
