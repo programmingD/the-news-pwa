@@ -1,4 +1,6 @@
-const API = 'https://newsdata.io/api/1/news?apikey=pub_26732334bf3b5a294acfcd2eeae3b432c8440&q=pegasus&language=es';
+import MY_APY_KEY from './myapp.js'
+
+let API = `https://newsdata.io/api/1/news?apikey=${MY_APY_KEY}=pegasus&language=es`;
 
 const HTMLNode = document.getElementById('news');
 
