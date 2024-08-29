@@ -1,6 +1,6 @@
 import MY_APY_KEY from './myapp.js'
 
-let API = `https://newsdata.io/api/1/news?apikey=${MY_APY_KEY}=pegasus&language=es`;
+let API = `https://newsdata.io/api/1/news?apikey=${MY_APY_KEY}=pegasus&language=en`;
 
 const HTMLNode = document.getElementById('news');
 
