@@ -1,6 +1,5 @@
 const API = 'https://newsdata.io/api/1/news?apikey=pub_26732334bf3b5a294acfcd2eeae3b432c8440&q=pegasus&language=es';
-//const API_II = 'https://newsapi.org/v2/everything?domains=wsj.com&apiKey=962ccbe6d8b7408ab7f8674fd54c6b64';
-//const API_III = 'https://newsapi.org/v2/everything?q=apple&from=2023-07-23&to=2023-07-23&sortBy=popularity&apiKey=962ccbe6d8b7408ab7f8674fd54c6b64';
+
 const HTMLNode = document.getElementById('news');
 
 function getNewsAPI(API) {
